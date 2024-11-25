@@ -32,7 +32,7 @@ public class HappyNumber {
 		while(n!=1) {
 		    if(h.contains(n))
 		    	return false;
-		    h.add(n); 5l8u
+		    h.add(n); 
 		    
 		    n = sumOfSquare(n);
 		}
