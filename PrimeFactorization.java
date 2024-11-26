@@ -37,6 +37,7 @@ public class PrimeFactorization {
                 System.out.print(i +"^" + count +" ");
         }
     }
+    // suppose N is a prime number than no prime factors here. 
     if(n > 1)
         System.out.println(n+"^" + 1 +" ");
     }
