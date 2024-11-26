@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class sumOfNaturalNumbers {
 
-    //brute force :
+    //brute force : TC : O(N)
     public static int bruteForce(int n){
         int sum = 0;
         for(int i = 1 ; i <= n; i++){
@@ -13,7 +13,7 @@ public class sumOfNaturalNumbers {
         return sum;
     }
 
-    //using formula:
+    //using formula: TC : O(1)
     public static int efficient(int n){
         n = n * (n + 1) / 2;
         return n;
